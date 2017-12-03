@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Animal Buttons</title>
+</head>
+
+<body>
+  <button data-animal="cat">cat</button>
+  <button data-animal="dog">dog</button>
+  <button data-animal="bird">bird</button>
+  <button data-animal="raccoon">raccoon</button>
+  <button data-animal="pig">pig</button>
+  <button data-animal="squirrel">squirrel</button>
+  <button data-animal="sloth">sloth</button>
+  <button data-animal="deer">deer</button>
+  <button data-animal="tiger">tiger</button>
+  <button data-animal="bear">bear</button>
+
+  <div class="container">
+
+     <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <form id="animal-form">
+      <label for="animal-input">Search</label>
+      <input type="text" id="animal-input"><br>
+
+      <!-- Button triggers new movie to be added -->
+      <input id="add-animal" type="submit" value="Add another animal">
+    </form>
+
+  
+  <div id="gifs-appear-here">
+ 
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript"></script>
+  <script src="anibut.js"></script>
+</body>
+
+</html>
+
+<!--Need to format so that gifs are generated in columns rather than stacked-->
