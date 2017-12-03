@@ -47,7 +47,7 @@ function AniGif() {
     });
 
 };
-
+AniGif()
 
  var animals = ["kangaroo", "donkey", "panda", "lion", "frogs", "pokemon"];
 
